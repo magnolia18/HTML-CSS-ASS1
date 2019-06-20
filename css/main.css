@@ -1,0 +1,250 @@
+ /* Giving 0 margins to the website*/
+ body{
+  margin: 0px;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+ /* Add a black color background to the navigation */
+.navbar {
+  margin-left: 45%;
+  float: right;
+} 
+
+.navbar li{
+  display: inline;
+  padding: 9px;
+}
+   /* Add styling to the navigation elements */
+  .navbar li a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+   /* Add a color to the link being hovered */
+  .navbar  li a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+
+  /* Add a color to the active/current link */
+
+.header{
+  width: 100%;
+  display: flex;
+  background-color:rgb(135,2,2);
+  top: 0px;
+  position: fixed;
+}
+ /* Adding Header Title of the website*/
+.header h1{
+    /* margin: auto; */
+    font-family: "B612 Mono", monospace;
+    font-size: 41px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 34px;
+}
+
+/* Adding Logo */
+.header img{
+  width:100x;
+  height: 115px;
+  float: left;
+  border-radius: 8px;
+
+}
+
+ /* Add a hero image to get to about website quickly and attractively*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/h.jpg");
+  height: 609px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 150px;
+  background-attachment: fixed; 
+
+  }
+  
+  /* Add styling to the elements of the Hero image*/
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-decoration-color: azure;
+  }
+.hero-text h1{
+  color:black;
+  background-color: azure;
+}
+.hero-text p{
+  color:black;
+  background-color: azure;
+}
+  section {
+    display: flex;
+
+  }
+
+  .content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .content article{
+    background-color: black;
+    margin: 18px;
+    flex: 1;
+    align-items: center;
+    width: 45%;
+  }
+
+ /* .content h2{
+   font-size: 16px;
+   font-display: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+   color: white
+   text-align left;
+ }  */
+
+ .content img{
+   height: 280px;
+   width: 330px;
+   /* align-items: center; */
+   /* margin: 20px,20px,10px,20px */
+   /* margin-left: 17px;
+   margin-right: 17px; */
+   margin-top: 17px;
+   border-radius: 8px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+.content h2{
+  text-align: center;
+  color: black;
+  font-family: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+  padding: -4px;
+  margin-left: 17px;
+  bottom: 0px;
+  background-color: beige;
+  width:245px;
+
+}
+ .content p{
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    font-family: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    padding: 11px;
+    width: -200px;
+ }
+
+ .sec1{
+  margin-bottom: 0px;
+  width: 100%;
+  background-color: rgb(34,139,34);
+  height: 120px;
+}
+
+.sec1 h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  /* flex-direction: row; */
+  align-content: center;
+  /* width: 50%; */
+  height: 20%;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.sec1 p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  /* width:50%; */
+  height: 20%;
+  margin-top: 5%;
+  align-content: center;
+  font-size: 20px;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+footer{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(135,2,2);
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+}
+
+footer blockquote{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+footer p{
+  /* align-content: center; */
+  width: 18%;
+  /* right: 20%; */
+  margin-top: 35px;
+}
+.soclogos{
+  float: right;
+  height: 400px;
+  width: 1000px;
+}
+
+.socialicons{
+  float: right;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+.fa {
+  padding: 12px;
+  font-size: 30px;
+  width: 8px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
